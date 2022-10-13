@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="footer" time="454.216" tests="23" errors="10" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\user\eclipse-workspace\in_music_store_ui/src/test/resources/Drivers/chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\user\eclipse-workspace\in_music_store_ui\target\test-classes;C:\Users\user\eclipse-workspace\in_music_store_ui\target\classes;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-java\4.1.3\selenium-java-4.1.3.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-api\4.1.3\selenium-api-4.1.3.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.1.3\selenium-chrome-driver-4.1.3.jar;C:\Users\user\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\user\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\user\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\user\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\user\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\user\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\user\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\user\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\user\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\user\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.1.3\selenium-chromium-driver-4.1.3.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-json\4.1.3\selenium-json-4.1.3.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.1.3\selenium-devtools-v85-4.1.3.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v97\4.1.3\selenium-devtools-v97-4.1.3.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v98\4.1.3\selenium-devtools-v98-4.1.3.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v99\4.1.3\selenium-devtools-v99-4.1.3.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.1.3\selenium-edge-driver-4.1.3.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.1.3\selenium-firefox-driver-4.1.3.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.1.3\selenium-ie-driver-4.1.3.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.1.3\selenium-opera-driver-4.1.3.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.1.3\selenium-remote-driver-4.1.3.jar;C:\Users\user\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\user\.m2\repository\io\netty\netty-buffer\4.1.75.Final\netty-buffer-4.1.75.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-codec-http\4.1.75.Final\netty-codec-http-4.1.75.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-codec\4.1.75.Final\netty-codec-4.1.75.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-handler\4.1.75.Final\netty-handler-4.1.75.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-common\4.1.75.Final\netty-common-4.1.75.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.75.Final\netty-transport-classes-epoll-4.1.75.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.75.Final\netty-transport-classes-kqueue-4.1.75.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-transport-native-epoll\4.1.75.Final\netty-transport-native-epoll-4.1.75.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.75.Final\netty-transport-native-kqueue-4.1.75.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.75.Final\netty-transport-native-unix-common-4.1.75.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-transport\4.1.75.Final\netty-transport-4.1.75.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-resolver\4.1.75.Final\netty-resolver-4.1.75.Final.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api\1.12.0\opentelemetry-api-1.12.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-context\1.12.0\opentelemetry-context-1.12.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.12.0\opentelemetry-exporter-logging-1.12.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.12.0-alpha\opentelemetry-sdk-metrics-1.12.0-alpha.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.12.0-alpha\opentelemetry-sdk-logs-1.12.0-alpha.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.12.0\opentelemetry-sdk-common-1.12.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.12.0\opentelemetry-sdk-extension-autoconfigure-spi-1.12.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.12.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.12.0-alpha.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.12.0\opentelemetry-sdk-trace-1.12.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.12.0\opentelemetry-sdk-1.12.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.12.0-alpha\opentelemetry-semconv-1.12.0-alpha.jar;C:\Users\user\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\user\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\user\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\user\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\user\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\user\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\user\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\user\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\user\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-http\4.1.3\selenium-http-4.1.3.jar;C:\Users\user\.m2\repository\dev\failsafe\failsafe\3.2.3\failsafe-3.2.3.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.1.3\selenium-safari-driver-4.1.3.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-support\4.1.3\selenium-support-4.1.3.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-java\5.7.0\cucumber-java-5.7.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-core\5.7.0\cucumber-core-5.7.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-gherkin\5.7.0\cucumber-gherkin-5.7.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-gherkin-vintage\5.7.0\cucumber-gherkin-vintage-5.7.0.jar;C:\Users\user\.m2\repository\io\cucumber\tag-expressions\2.0.4\tag-expressions-2.0.4.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-expressions\8.3.1\cucumber-expressions-8.3.1.jar;C:\Users\user\.m2\repository\io\cucumber\datatable\3.3.1\datatable-3.3.1.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-plugin\5.7.0\cucumber-plugin-5.7.0.jar;C:\Users\user\.m2\repository\io\cucumber\docstring\5.7.0\docstring-5.7.0.jar;C:\Users\user\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-junit\5.7.0\cucumber-junit-5.7.0.jar;C:\Users\user\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\user\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\user\.m2\repository\org\assertj\assertj-core\3.23.1\assertj-core-3.23.1.jar;C:\Users\user\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Africa/Harare"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.16.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\user\AppData\Local\Temp\surefire3463526452581800066\surefirebooter4096919856281890751.jar C:\Users\user\AppData\Local\Temp\surefire3463526452581800066 2022-10-13T16-26-34_243-jvmRun1 surefire13173099210544579325tmp surefire_016344096475553761798tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\user\eclipse-workspace\in_music_store_ui\target\test-classes;C:\Users\user\eclipse-workspace\in_music_store_ui\target\classes;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-java\4.1.3\selenium-java-4.1.3.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-api\4.1.3\selenium-api-4.1.3.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.1.3\selenium-chrome-driver-4.1.3.jar;C:\Users\user\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\user\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\user\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\user\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\user\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\user\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\user\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\user\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\user\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\user\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.1.3\selenium-chromium-driver-4.1.3.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-json\4.1.3\selenium-json-4.1.3.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.1.3\selenium-devtools-v85-4.1.3.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v97\4.1.3\selenium-devtools-v97-4.1.3.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v98\4.1.3\selenium-devtools-v98-4.1.3.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v99\4.1.3\selenium-devtools-v99-4.1.3.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.1.3\selenium-edge-driver-4.1.3.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.1.3\selenium-firefox-driver-4.1.3.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.1.3\selenium-ie-driver-4.1.3.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.1.3\selenium-opera-driver-4.1.3.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.1.3\selenium-remote-driver-4.1.3.jar;C:\Users\user\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\user\.m2\repository\io\netty\netty-buffer\4.1.75.Final\netty-buffer-4.1.75.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-codec-http\4.1.75.Final\netty-codec-http-4.1.75.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-codec\4.1.75.Final\netty-codec-4.1.75.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-handler\4.1.75.Final\netty-handler-4.1.75.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-common\4.1.75.Final\netty-common-4.1.75.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.75.Final\netty-transport-classes-epoll-4.1.75.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.75.Final\netty-transport-classes-kqueue-4.1.75.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-transport-native-epoll\4.1.75.Final\netty-transport-native-epoll-4.1.75.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.75.Final\netty-transport-native-kqueue-4.1.75.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.75.Final\netty-transport-native-unix-common-4.1.75.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-transport\4.1.75.Final\netty-transport-4.1.75.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-resolver\4.1.75.Final\netty-resolver-4.1.75.Final.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api\1.12.0\opentelemetry-api-1.12.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-context\1.12.0\opentelemetry-context-1.12.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.12.0\opentelemetry-exporter-logging-1.12.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.12.0-alpha\opentelemetry-sdk-metrics-1.12.0-alpha.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.12.0-alpha\opentelemetry-sdk-logs-1.12.0-alpha.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.12.0\opentelemetry-sdk-common-1.12.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.12.0\opentelemetry-sdk-extension-autoconfigure-spi-1.12.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.12.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.12.0-alpha.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.12.0\opentelemetry-sdk-trace-1.12.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.12.0\opentelemetry-sdk-1.12.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.12.0-alpha\opentelemetry-semconv-1.12.0-alpha.jar;C:\Users\user\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\user\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\user\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\user\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\user\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\user\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\user\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\user\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\user\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\user\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-http\4.1.3\selenium-http-4.1.3.jar;C:\Users\user\.m2\repository\dev\failsafe\failsafe\3.2.3\failsafe-3.2.3.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.1.3\selenium-safari-driver-4.1.3.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-support\4.1.3\selenium-support-4.1.3.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-java\5.7.0\cucumber-java-5.7.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-core\5.7.0\cucumber-core-5.7.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-gherkin\5.7.0\cucumber-gherkin-5.7.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-gherkin-vintage\5.7.0\cucumber-gherkin-vintage-5.7.0.jar;C:\Users\user\.m2\repository\io\cucumber\tag-expressions\2.0.4\tag-expressions-2.0.4.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-expressions\8.3.1\cucumber-expressions-8.3.1.jar;C:\Users\user\.m2\repository\io\cucumber\datatable\3.3.1\datatable-3.3.1.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-plugin\5.7.0\cucumber-plugin-5.7.0.jar;C:\Users\user\.m2\repository\io\cucumber\docstring\5.7.0\docstring-5.7.0.jar;C:\Users\user\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-junit\5.7.0\cucumber-junit-5.7.0.jar;C:\Users\user\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\user\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\user\.m2\repository\org\assertj\assertj-core\3.23.1\assertj-core-3.23.1.jar;C:\Users\user\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\user"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.16.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\user\eclipse-workspace\in_music_store_ui"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\user\AppData\Local\Temp\surefire3463526452581800066\surefirebooter4096919856281890751.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.16.1+1-LTS-1"/>
+    <property name="user.name" value="user"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\user\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\user\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.16.1"/>
+    <property name="user.dir" value="C:\Users\user\eclipse-workspace\in_music_store_ui"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.16.1\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/eclipse-java-2021-06-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205/jre/bin/server;C:/eclipse-java-2021-06-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\PuTTY\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Java\jdk-11.0.16.1\bin;C:\Program Files\Git\cmd;C:\Users\user\AppData\Local\Microsoft\WindowsApps;;C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\user\.dotnet\tools;C:\eclipse-java-2021-06-R-win32-x86_64\eclipse;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.16.1+1-LTS-1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="EMPTY_NAME" classname="footer" time="10.811">
+    <error message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=106.0.5249.119)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference&#10;Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;&#10;System info: host: &apos;DESKTOP-HJ4MA0G&apos;, ip: &apos;172.17.176.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.16.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [54321deed1886289c759f722dc7a92d3, clickElement {id=73407c43-58f2-439a-8661-148578787542}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55057}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55057/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (54321deed1886289c759f722dc7a92d3)] -&gt; xpath: //button[@class=&apos;btn btn-primary&apos;]]&#10;Session ID: 54321deed1886289c759f722dc7a92d3" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-HJ4MA0G', ip: '172.17.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [54321deed1886289c759f722dc7a92d3, clickElement {id=73407c43-58f2-439a-8661-148578787542}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55057}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55057/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (54321deed1886289c759f722dc7a92d3)] -> xpath: //button[@class='btn btn-primary']]
+Session ID: 54321deed1886289c759f722dc7a92d3
+</error>
+    <system-out><![CDATA[
+@SmokeScenario @footer @SmokeTest
+Scenario:                               # src/test/resources/Features/footer.feature:12
+  Given I navigate to url               # StepDefinitions.NavigationSteps.i_navigate_to_url()
+  Then I should see the cookie banner   # StepDefinitions.CookieSteps.i_should_see_the_cookie_banner()
+  When I click the Allow Cookies Button # StepDefinitions.CookieSteps.i_click_the_Allow_Cookies_Button()
+      org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-HJ4MA0G', ip: '172.17.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [54321deed1886289c759f722dc7a92d3, clickElement {id=73407c43-58f2-439a-8661-148578787542}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55057}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55057/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (54321deed1886289c759f722dc7a92d3)] -> xpath: //button[@class='btn btn-primary']]
+Session ID: 54321deed1886289c759f722dc7a92d3
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at Helpers.Click.ElementClick(Click.java:10)
+	at Pages.CookiesPage.clickAcceptCookie(CookiesPage.java:31)
+	at StepDefinitions.CookieSteps.i_click_the_Allow_Cookies_Button(CookieSteps.java:24)
+	at ?.I click the Allow Cookies Button(file:///C:/Users/user/eclipse-workspace/in_music_store_ui/src/test/resources/Features/footer.feature:15)
+
+  Then I scroll to footer               # StepDefinitions.FooterPageSteps.i_scroll_to_footer()
+  And I click the privacy page          # StepDefinitions.FooterPageSteps.i_click_the_privacy_page()
+  Then I am in the privacy page         # StepDefinitions.SignInPageSteps.I_am_in_the_privacy_page()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 54804
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1665671293.122][WARNING]: This version of ChromeDriver has not been tested with Chrome version 106.
+Oct 13, 2022 4:28:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 13, 2022 4:28:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 106, so returning the closest version found: a no-op implementation
+Oct 13, 2022 4:28:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 106.
+Oct 13, 2022 4:28:13 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.3` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="EMPTY_NAME" classname="footer" time="10.54">
+    <error message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=106.0.5249.119)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference&#10;Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;&#10;System info: host: &apos;DESKTOP-HJ4MA0G&apos;, ip: &apos;172.17.176.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.16.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [8d1f0ecb2e010c306897d45e374bb584, clickElement {id=864fc2fb-43e6-471a-802f-5132e9086a3f}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55118}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55118/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (8d1f0ecb2e010c306897d45e374bb584)] -&gt; xpath: //button[@class=&apos;btn btn-primary&apos;]]&#10;Session ID: 8d1f0ecb2e010c306897d45e374bb584" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-HJ4MA0G', ip: '172.17.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8d1f0ecb2e010c306897d45e374bb584, clickElement {id=864fc2fb-43e6-471a-802f-5132e9086a3f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55118}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55118/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (8d1f0ecb2e010c306897d45e374bb584)] -> xpath: //button[@class='btn btn-primary']]
+Session ID: 8d1f0ecb2e010c306897d45e374bb584
+</error>
+    <system-out><![CDATA[
+@SmokeScenario @footer @SmokeTest
+Scenario:                               # src/test/resources/Features/footer.feature:21
+  Given I navigate to url               # StepDefinitions.NavigationSteps.i_navigate_to_url()
+  Then I should see the cookie banner   # StepDefinitions.CookieSteps.i_should_see_the_cookie_banner()
+  When I click the Allow Cookies Button # StepDefinitions.CookieSteps.i_click_the_Allow_Cookies_Button()
+      org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-HJ4MA0G', ip: '172.17.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8d1f0ecb2e010c306897d45e374bb584, clickElement {id=864fc2fb-43e6-471a-802f-5132e9086a3f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55118}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55118/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (8d1f0ecb2e010c306897d45e374bb584)] -> xpath: //button[@class='btn btn-primary']]
+Session ID: 8d1f0ecb2e010c306897d45e374bb584
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at Helpers.Click.ElementClick(Click.java:10)
+	at Pages.CookiesPage.clickAcceptCookie(CookiesPage.java:31)
+	at StepDefinitions.CookieSteps.i_click_the_Allow_Cookies_Button(CookieSteps.java:24)
+	at ?.I click the Allow Cookies Button(file:///C:/Users/user/eclipse-workspace/in_music_store_ui/src/test/resources/Features/footer.feature:24)
+
+  Then I scroll to footer               # StepDefinitions.FooterPageSteps.i_scroll_to_footer()
+  And I click the Terms page            # StepDefinitions.FooterPageSteps.i_click_the_Terms_page()
+  Then I am in the terms of use page    # StepDefinitions.SignInPageSteps.i_am_in_the_terms_of_use_page()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 58101
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1665671303.885][WARNING]: This version of ChromeDriver has not been tested with Chrome version 106.
+Oct 13, 2022 4:28:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 13, 2022 4:28:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 106, so returning the closest version found: a no-op implementation
+Oct 13, 2022 4:28:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 106.
+Oct 13, 2022 4:28:23 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.3` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="EMPTY_NAME" classname="footer" time="10.659">
+    <error message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=106.0.5249.119)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference&#10;Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;&#10;System info: host: &apos;DESKTOP-HJ4MA0G&apos;, ip: &apos;172.17.176.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.16.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [7c3003d61950d6d9b2201ad83f5095ee, clickElement {id=03db037b-78d3-4cf5-852e-860122319f34}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55189}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55189/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (7c3003d61950d6d9b2201ad83f5095ee)] -&gt; xpath: //button[@class=&apos;btn btn-primary&apos;]]&#10;Session ID: 7c3003d61950d6d9b2201ad83f5095ee" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-HJ4MA0G', ip: '172.17.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7c3003d61950d6d9b2201ad83f5095ee, clickElement {id=03db037b-78d3-4cf5-852e-860122319f34}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55189}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55189/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (7c3003d61950d6d9b2201ad83f5095ee)] -> xpath: //button[@class='btn btn-primary']]
+Session ID: 7c3003d61950d6d9b2201ad83f5095ee
+</error>
+    <system-out><![CDATA[
+@SmokeScenario @footer @SmokeTest
+Scenario:                               # src/test/resources/Features/footer.feature:30
+  Given I navigate to url               # StepDefinitions.NavigationSteps.i_navigate_to_url()
+  Then I should see the cookie banner   # StepDefinitions.CookieSteps.i_should_see_the_cookie_banner()
+  When I click the Allow Cookies Button # StepDefinitions.CookieSteps.i_click_the_Allow_Cookies_Button()
+      org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-HJ4MA0G', ip: '172.17.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7c3003d61950d6d9b2201ad83f5095ee, clickElement {id=03db037b-78d3-4cf5-852e-860122319f34}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55189}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55189/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (7c3003d61950d6d9b2201ad83f5095ee)] -> xpath: //button[@class='btn btn-primary']]
+Session ID: 7c3003d61950d6d9b2201ad83f5095ee
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at Helpers.Click.ElementClick(Click.java:10)
+	at Pages.CookiesPage.clickAcceptCookie(CookiesPage.java:31)
+	at StepDefinitions.CookieSteps.i_click_the_Allow_Cookies_Button(CookieSteps.java:24)
+	at ?.I click the Allow Cookies Button(file:///C:/Users/user/eclipse-workspace/in_music_store_ui/src/test/resources/Features/footer.feature:33)
+
+  Then I scroll to footer               # StepDefinitions.FooterPageSteps.i_scroll_to_footer()
+  Then I can see the secure payments    # StepDefinitions.FooterPageSteps.secure_payments()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 63672
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1665671314.376][WARNING]: This version of ChromeDriver has not been tested with Chrome version 106.
+Oct 13, 2022 4:28:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 13, 2022 4:28:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 106, so returning the closest version found: a no-op implementation
+Oct 13, 2022 4:28:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 106.
+Oct 13, 2022 4:28:34 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.3` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="EMPTY_NAME" classname="footer" time="12.752">
+    <error message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=106.0.5249.119)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference&#10;Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;&#10;System info: host: &apos;DESKTOP-HJ4MA0G&apos;, ip: &apos;172.17.176.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.16.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [a9a436ecf68f185e2c2d5c8855a80033, clickElement {id=5f827438-c248-46b7-85f3-ed842a52d5a6}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55243}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55243/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (a9a436ecf68f185e2c2d5c8855a80033)] -&gt; xpath: //button[@class=&apos;btn btn-primary&apos;]]&#10;Session ID: a9a436ecf68f185e2c2d5c8855a80033" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-HJ4MA0G', ip: '172.17.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a9a436ecf68f185e2c2d5c8855a80033, clickElement {id=5f827438-c248-46b7-85f3-ed842a52d5a6}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55243}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55243/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (a9a436ecf68f185e2c2d5c8855a80033)] -> xpath: //button[@class='btn btn-primary']]
+Session ID: a9a436ecf68f185e2c2d5c8855a80033
+</error>
+    <system-out><![CDATA[
+@SmokeScenario @footer @SmokeTest
+Scenario Outline:                           # src/test/resources/Features/footer.feature:48
+  Given I navigate to url                   # StepDefinitions.NavigationSteps.i_navigate_to_url()
+  Then I should see the cookie banner       # StepDefinitions.CookieSteps.i_should_see_the_cookie_banner()
+  When I click the Allow Cookies Button     # StepDefinitions.CookieSteps.i_click_the_Allow_Cookies_Button()
+      org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-HJ4MA0G', ip: '172.17.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a9a436ecf68f185e2c2d5c8855a80033, clickElement {id=5f827438-c248-46b7-85f3-ed842a52d5a6}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55243}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55243/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (a9a436ecf68f185e2c2d5c8855a80033)] -> xpath: //button[@class='btn btn-primary']]
+Session ID: a9a436ecf68f185e2c2d5c8855a80033
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at Helpers.Click.ElementClick(Click.java:10)
+	at Pages.CookiesPage.clickAcceptCookie(CookiesPage.java:31)
+	at StepDefinitions.CookieSteps.i_click_the_Allow_Cookies_Button(CookieSteps.java:24)
+	at ?.I click the Allow Cookies Button(file:///C:/Users/user/eclipse-workspace/in_music_store_ui/src/test/resources/Features/footer.feature:41)
+
+  Then I scroll to footer                   # StepDefinitions.FooterPageSteps.i_scroll_to_footer()
+  And I click on the "facebook" page        # StepDefinitions.FooterPageSteps.i_click_on_the_page(java.lang.String)
+  Then I validate the "facebook" Links work # StepDefinitions.FooterPageSteps.i_Then_i_validate_the_Links_works(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 52163
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1665671325.289][WARNING]: This version of ChromeDriver has not been tested with Chrome version 106.
+Oct 13, 2022 4:28:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 13, 2022 4:28:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 106, so returning the closest version found: a no-op implementation
+Oct 13, 2022 4:28:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 106.
+Oct 13, 2022 4:28:45 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.3` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="EMPTY_NAME" classname="footer" time="18.874">
+    <error message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=106.0.5249.119)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference&#10;Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;&#10;System info: host: &apos;DESKTOP-HJ4MA0G&apos;, ip: &apos;172.17.176.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.16.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [c9d52c8bdc3224339b0486b7390049aa, clickElement {id=96b5c2e2-a567-436a-9a27-a82b0526bc3c}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55312}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55312/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (c9d52c8bdc3224339b0486b7390049aa)] -&gt; xpath: //button[@class=&apos;btn btn-primary&apos;]]&#10;Session ID: c9d52c8bdc3224339b0486b7390049aa" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-HJ4MA0G', ip: '172.17.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c9d52c8bdc3224339b0486b7390049aa, clickElement {id=96b5c2e2-a567-436a-9a27-a82b0526bc3c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55312}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55312/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (c9d52c8bdc3224339b0486b7390049aa)] -> xpath: //button[@class='btn btn-primary']]
+Session ID: c9d52c8bdc3224339b0486b7390049aa
+</error>
+    <system-out><![CDATA[
+@SmokeScenario @footer @SmokeTest
+Scenario Outline:                          # src/test/resources/Features/footer.feature:49
+  Given I navigate to url                  # StepDefinitions.NavigationSteps.i_navigate_to_url()
+  Then I should see the cookie banner      # StepDefinitions.CookieSteps.i_should_see_the_cookie_banner()
+  When I click the Allow Cookies Button    # StepDefinitions.CookieSteps.i_click_the_Allow_Cookies_Button()
+      org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-HJ4MA0G', ip: '172.17.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c9d52c8bdc3224339b0486b7390049aa, clickElement {id=96b5c2e2-a567-436a-9a27-a82b0526bc3c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55312}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55312/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (c9d52c8bdc3224339b0486b7390049aa)] -> xpath: //button[@class='btn btn-primary']]
+Session ID: c9d52c8bdc3224339b0486b7390049aa
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at Helpers.Click.ElementClick(Click.java:10)
+	at Pages.CookiesPage.clickAcceptCookie(CookiesPage.java:31)
+	at StepDefinitions.CookieSteps.i_click_the_Allow_Cookies_Button(CookieSteps.java:24)
+	at ?.I click the Allow Cookies Button(file:///C:/Users/user/eclipse-workspace/in_music_store_ui/src/test/resources/Features/footer.feature:41)
+
+  Then I scroll to footer                  # StepDefinitions.FooterPageSteps.i_scroll_to_footer()
+  And I click on the "twitter" page        # StepDefinitions.FooterPageSteps.i_click_on_the_page(java.lang.String)
+  Then I validate the "twitter" Links work # StepDefinitions.FooterPageSteps.i_Then_i_validate_the_Links_works(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 53967
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1665671337.833][WARNING]: This version of ChromeDriver has not been tested with Chrome version 106.
+Oct 13, 2022 4:28:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 13, 2022 4:28:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 106, so returning the closest version found: a no-op implementation
+Oct 13, 2022 4:28:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 106.
+Oct 13, 2022 4:28:58 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.3` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="EMPTY_NAME" classname="footer" time="23.524">
+    <error message="invalid session id&#10;Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;&#10;System info: host: &apos;DESKTOP-HJ4MA0G&apos;, ip: &apos;172.17.176.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.16.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [cee2f29925cf3af3fd3a6073ce41e087, executeScript {script=arguments[0].scrollIntoView(true);, args=[{ELEMENT=ebbb7be3-9fb5-4567-b799-2c46740e51be, element-6066-11e4-a52e-4f735466cecf=ebbb7be3-9fb5-4567-b799-2c46740e51be}]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55385}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55385/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: cee2f29925cf3af3fd3a6073ce41e087" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-HJ4MA0G', ip: '172.17.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cee2f29925cf3af3fd3a6073ce41e087, executeScript {script=arguments[0].scrollIntoView(true);, args=[{ELEMENT=ebbb7be3-9fb5-4567-b799-2c46740e51be, element-6066-11e4-a52e-4f735466cecf=ebbb7be3-9fb5-4567-b799-2c46740e51be}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55385}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55385/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cee2f29925cf3af3fd3a6073ce41e087
+</error>
+    <system-out><![CDATA[
+@SmokeScenario @footer @SmokeTest
+Scenario Outline:                           # src/test/resources/Features/footer.feature:50
+  Given I navigate to url                   # StepDefinitions.NavigationSteps.i_navigate_to_url()
+  Then I should see the cookie banner       # StepDefinitions.CookieSteps.i_should_see_the_cookie_banner()
+  When I click the Allow Cookies Button     # StepDefinitions.CookieSteps.i_click_the_Allow_Cookies_Button()
+  Then I scroll to footer                   # StepDefinitions.FooterPageSteps.i_scroll_to_footer()
+      org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-HJ4MA0G', ip: '172.17.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cee2f29925cf3af3fd3a6073ce41e087, executeScript {script=arguments[0].scrollIntoView(true);, args=[{ELEMENT=ebbb7be3-9fb5-4567-b799-2c46740e51be, element-6066-11e4-a52e-4f735466cecf=ebbb7be3-9fb5-4567-b799-2c46740e51be}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55385}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55385/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cee2f29925cf3af3fd3a6073ce41e087
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:501)
+	at Helpers.Scroll.ScrollToElement(Scroll.java:16)
+	at Pages.FooterPage.scrollToFooter(FooterPage.java:91)
+	at StepDefinitions.FooterPageSteps.i_scroll_to_footer(FooterPageSteps.java:16)
+	at ?.I scroll to footer(file:///C:/Users/user/eclipse-workspace/in_music_store_ui/src/test/resources/Features/footer.feature:42)
+
+  And I click on the "instagam" page        # StepDefinitions.FooterPageSteps.i_click_on_the_page(java.lang.String)
+  Then I validate the "instagam" Links work # StepDefinitions.FooterPageSteps.i_Then_i_validate_the_Links_works(java.lang.String)
+      org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-HJ4MA0G', ip: '172.17.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cee2f29925cf3af3fd3a6073ce41e087, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55385}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55385/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cee2f29925cf3af3fd3a6073ce41e087
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:452)
+	at StepDefinitions.Hooks.tearDown(Hooks.java:28)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:59404
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:80)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:51)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:124)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:181)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:452)
+	at StepDefinitions.Hooks.tearDown(Hooks.java:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:27)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:61)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:31)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:20)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:49)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:55)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:67)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:149)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:83)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:185)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:83)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:410)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:59404
+	at org.asynchttpclient.netty.channel.NettyConnectListener.onFailure(NettyConnectListener.java:179)
+	at org.asynchttpclient.netty.channel.NettyChannelConnector$1.onFailure(NettyChannelConnector.java:108)
+	at org.asynchttpclient.netty.SimpleChannelFutureListener.operationComplete(SimpleChannelFutureListener.java:28)
+	at org.asynchttpclient.netty.SimpleChannelFutureListener.operationComplete(SimpleChannelFutureListener.java:20)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:321)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:337)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 more
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:59404
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 56593
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1665671357.014][WARNING]: This version of ChromeDriver has not been tested with Chrome version 106.
+Oct 13, 2022 4:29:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 13, 2022 4:29:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 106, so returning the closest version found: a no-op implementation
+Oct 13, 2022 4:29:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 106.
+Oct 13, 2022 4:29:17 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.3` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="EMPTY_NAME" classname="footer" time="0">
+    <error message="Error communicating with the remote browser. It may have died.&#10;Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;&#10;System info: host: &apos;DESKTOP-HJ4MA0G&apos;, ip: &apos;172.17.176.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.16.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [cee2f29925cf3af3fd3a6073ce41e087, close {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55385}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55385/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: cee2f29925cf3af3fd3a6073ce41e087" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-HJ4MA0G', ip: '172.17.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cee2f29925cf3af3fd3a6073ce41e087, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55385}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55385/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cee2f29925cf3af3fd3a6073ce41e087
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:59404
+Caused by: java.net.ConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:59404
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:59404
+Caused by: java.net.ConnectException: Connection refused: no further information
+</error>
+  </testcase>
+  <testcase name="EMPTY_NAME" classname="footer" time="11.136">
+    <error message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=106.0.5249.119)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference&#10;Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;&#10;System info: host: &apos;DESKTOP-HJ4MA0G&apos;, ip: &apos;172.17.176.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.16.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [ff7d7fd33cd218f93bc1fcc89285ace7, clickElement {id=686e0bfe-7773-4836-861b-4e643ea92d8f}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55458}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55458/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (ff7d7fd33cd218f93bc1fcc89285ace7)] -&gt; xpath: //button[@class=&apos;btn btn-primary&apos;]]&#10;Session ID: ff7d7fd33cd218f93bc1fcc89285ace7" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-HJ4MA0G', ip: '172.17.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ff7d7fd33cd218f93bc1fcc89285ace7, clickElement {id=686e0bfe-7773-4836-861b-4e643ea92d8f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55458}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55458/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (ff7d7fd33cd218f93bc1fcc89285ace7)] -> xpath: //button[@class='btn btn-primary']]
+Session ID: ff7d7fd33cd218f93bc1fcc89285ace7
+</error>
+    <system-out><![CDATA[
+@SmokeScenario @footer @SmokeTest
+Scenario Outline:                                      # src/test/resources/Features/footer.feature:63
+  Given I navigate to url                              # StepDefinitions.NavigationSteps.i_navigate_to_url()
+  Then I should see the cookie banner                  # StepDefinitions.CookieSteps.i_should_see_the_cookie_banner()
+  When I click the Allow Cookies Button                # StepDefinitions.CookieSteps.i_click_the_Allow_Cookies_Button()
+      org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-HJ4MA0G', ip: '172.17.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ff7d7fd33cd218f93bc1fcc89285ace7, clickElement {id=686e0bfe-7773-4836-861b-4e643ea92d8f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55458}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55458/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (ff7d7fd33cd218f93bc1fcc89285ace7)] -> xpath: //button[@class='btn btn-primary']]
+Session ID: ff7d7fd33cd218f93bc1fcc89285ace7
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at Helpers.Click.ElementClick(Click.java:10)
+	at Pages.CookiesPage.clickAcceptCookie(CookiesPage.java:31)
+	at StepDefinitions.CookieSteps.i_click_the_Allow_Cookies_Button(CookieSteps.java:24)
+	at ?.I click the Allow Cookies Button(file:///C:/Users/user/eclipse-workspace/in_music_store_ui/src/test/resources/Features/footer.feature:56)
+
+  Then I scroll to footer                              # StepDefinitions.FooterPageSteps.i_scroll_to_footer()
+  And I click on the "studio & Production" page        # StepDefinitions.FooterPageSteps.i_click_on_the_page(java.lang.String)
+  Then I validate the "studio & Production" Links work # StepDefinitions.FooterPageSteps.i_Then_i_validate_the_Links_works(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 58245
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1665671379.841][WARNING]: This version of ChromeDriver has not been tested with Chrome version 106.
+Oct 13, 2022 4:29:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 13, 2022 4:29:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 106, so returning the closest version found: a no-op implementation
+Oct 13, 2022 4:29:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 106.
+Oct 13, 2022 4:29:39 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.3` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="EMPTY_NAME" classname="footer" time="13.609">
+    <error message="invalid session id&#10;Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;&#10;System info: host: &apos;DESKTOP-HJ4MA0G&apos;, ip: &apos;172.17.176.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.16.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [8673d525ed1360856a45ccdfe1a1dc95, executeScript {script=arguments[0].scrollIntoView(true);, args=[{ELEMENT=fa070f69-f98a-4b7e-8daa-ed892bfe8a94, element-6066-11e4-a52e-4f735466cecf=fa070f69-f98a-4b7e-8daa-ed892bfe8a94}]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55527}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55527/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 8673d525ed1360856a45ccdfe1a1dc95" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-HJ4MA0G', ip: '172.17.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8673d525ed1360856a45ccdfe1a1dc95, executeScript {script=arguments[0].scrollIntoView(true);, args=[{ELEMENT=fa070f69-f98a-4b7e-8daa-ed892bfe8a94, element-6066-11e4-a52e-4f735466cecf=fa070f69-f98a-4b7e-8daa-ed892bfe8a94}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55527}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55527/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8673d525ed1360856a45ccdfe1a1dc95
+</error>
+    <system-out><![CDATA[
+@SmokeScenario @footer @SmokeTest
+Scenario Outline:                                     # src/test/resources/Features/footer.feature:64
+  Given I navigate to url                             # StepDefinitions.NavigationSteps.i_navigate_to_url()
+  Then I should see the cookie banner                 # StepDefinitions.CookieSteps.i_should_see_the_cookie_banner()
+  When I click the Allow Cookies Button               # StepDefinitions.CookieSteps.i_click_the_Allow_Cookies_Button()
+  Then I scroll to footer                             # StepDefinitions.FooterPageSteps.i_scroll_to_footer()
+      org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-HJ4MA0G', ip: '172.17.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8673d525ed1360856a45ccdfe1a1dc95, executeScript {script=arguments[0].scrollIntoView(true);, args=[{ELEMENT=fa070f69-f98a-4b7e-8daa-ed892bfe8a94, element-6066-11e4-a52e-4f735466cecf=fa070f69-f98a-4b7e-8daa-ed892bfe8a94}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55527}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55527/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8673d525ed1360856a45ccdfe1a1dc95
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:501)
+	at Helpers.Scroll.ScrollToElement(Scroll.java:16)
+	at Pages.FooterPage.scrollToFooter(FooterPage.java:91)
+	at StepDefinitions.FooterPageSteps.i_scroll_to_footer(FooterPageSteps.java:16)
+	at ?.I scroll to footer(file:///C:/Users/user/eclipse-workspace/in_music_store_ui/src/test/resources/Features/footer.feature:57)
+
+  And I click on the "Pianos & Keyboards" page        # StepDefinitions.FooterPageSteps.i_click_on_the_page(java.lang.String)
+  Then I validate the "Pianos & Keyboards" Links work # StepDefinitions.FooterPageSteps.i_Then_i_validate_the_Links_works(java.lang.String)
+      org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-HJ4MA0G', ip: '172.17.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8673d525ed1360856a45ccdfe1a1dc95, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55527}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55527/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8673d525ed1360856a45ccdfe1a1dc95
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:452)
+	at StepDefinitions.Hooks.tearDown(Hooks.java:28)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:55989
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:80)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:51)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+	at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:124)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:181)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:452)
+	at StepDefinitions.Hooks.tearDown(Hooks.java:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:27)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:61)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:31)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:20)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:49)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:55)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:67)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:149)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:83)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:185)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:83)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:410)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:55989
+	at org.asynchttpclient.netty.channel.NettyConnectListener.onFailure(NettyConnectListener.java:179)
+	at org.asynchttpclient.netty.channel.NettyChannelConnector$1.onFailure(NettyChannelConnector.java:108)
+	at org.asynchttpclient.netty.SimpleChannelFutureListener.operationComplete(SimpleChannelFutureListener.java:28)
+	at org.asynchttpclient.netty.SimpleChannelFutureListener.operationComplete(SimpleChannelFutureListener.java:20)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:321)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:337)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 more
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:55989
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 59161
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1665671391.545][WARNING]: This version of ChromeDriver has not been tested with Chrome version 106.
+Oct 13, 2022 4:29:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 13, 2022 4:29:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 106, so returning the closest version found: a no-op implementation
+Oct 13, 2022 4:29:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 106.
+Oct 13, 2022 4:29:51 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.3` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="EMPTY_NAME" classname="footer" time="0">
+    <error message="Error communicating with the remote browser. It may have died.&#10;Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;&#10;System info: host: &apos;DESKTOP-HJ4MA0G&apos;, ip: &apos;172.17.176.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.16.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [8673d525ed1360856a45ccdfe1a1dc95, close {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55527}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55527/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 8673d525ed1360856a45ccdfe1a1dc95" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-HJ4MA0G', ip: '172.17.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8673d525ed1360856a45ccdfe1a1dc95, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55527}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55527/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8673d525ed1360856a45ccdfe1a1dc95
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:55989
+Caused by: java.net.ConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:55989
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:55989
+Caused by: java.net.ConnectException: Connection refused: no further information
+</error>
+  </testcase>
+  <testcase name="EMPTY_NAME" classname="footer" time="22.197"/>
+  <testcase name="EMPTY_NAME" classname="footer" time="13.864"/>
+  <testcase name="EMPTY_NAME" classname="footer" time="22.065"/>
+  <testcase name="EMPTY_NAME" classname="footer" time="26.193"/>
+  <testcase name="EMPTY_NAME" classname="footer" time="13.462"/>
+  <testcase name="EMPTY_NAME" classname="footer" time="75.675"/>
+  <testcase name="EMPTY_NAME" classname="footer" time="39.944">
+    <failure message="expected:&lt;[]&gt; but was:&lt;[A Note From Our CEO]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[]> but was:<[A Note From Our CEO]>
+]]></failure>
+    <system-out><![CDATA[
+@SmokeScenario @footer @SmokeTest
+Scenario Outline:                          # src/test/resources/Features/footer.feature:83
+  Given I navigate to url                  # StepDefinitions.NavigationSteps.i_navigate_to_url()
+  Then I should see the cookie banner      # StepDefinitions.CookieSteps.i_should_see_the_cookie_banner()
+  When I click the Allow Cookies Button    # StepDefinitions.CookieSteps.i_click_the_Allow_Cookies_Button()
+  Then I scroll to footer                  # StepDefinitions.FooterPageSteps.i_scroll_to_footer()
+  And I click on the "Careers" page        # StepDefinitions.FooterPageSteps.i_click_on_the_page(java.lang.String)
+  Then I validate the "Careers" Links work # StepDefinitions.FooterPageSteps.i_Then_i_validate_the_Links_works(java.lang.String)
+      org.junit.ComparisonFailure: expected:<[]> but was:<[A Note From Our CEO]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at Pages.FooterPage.validatePageLinks(FooterPage.java:221)
+	at StepDefinitions.FooterPageSteps.i_Then_i_validate_the_Links_works(FooterPageSteps.java:40)
+	at ?.I validate the "Careers" Links work(file:///C:/Users/user/eclipse-workspace/in_music_store_ui/src/test/resources/Features/footer.feature:78)
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 54775
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1665671578.461][WARNING]: This version of ChromeDriver has not been tested with Chrome version 106.
+Oct 13, 2022 4:32:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 13, 2022 4:32:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 106, so returning the closest version found: a no-op implementation
+Oct 13, 2022 4:32:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 106.
+Oct 13, 2022 4:32:58 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.3` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="EMPTY_NAME" classname="footer" time="16.59"/>
+  <testcase name="EMPTY_NAME" classname="footer" time="11.896"/>
+  <testcase name="EMPTY_NAME" classname="footer" time="18.568"/>
+  <testcase name="EMPTY_NAME" classname="footer" time="56.153"/>
+  <testcase name="EMPTY_NAME" classname="footer" time="13.068"/>
+  <testcase name="EMPTY_NAME" classname="footer" time="12.632"/>
+</testsuite>

@@ -1,0 +1,126 @@
+-------------------------------------------------------------------------------
+Test set: Login
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 10, Skipped: 0, Time elapsed: 90.68 s <<< FAILURE! - in Login
+EMPTY_NAME(Login)  Time elapsed: 10.459 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-HJ4MA0G', ip: '172.17.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7c3003d61950d6d9b2201ad83f5095ee, clickElement {id=e9b9bee7-3d9d-4cc3-9e68-6012b4ee7f6f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55189}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55189/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (7c3003d61950d6d9b2201ad83f5095ee)] -> xpath: //header/nav/div/div[3]/div/div/div/a/div]
+Session ID: 7c3003d61950d6d9b2201ad83f5095ee
+
+EMPTY_NAME(Login)  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-HJ4MA0G', ip: '172.17.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7c3003d61950d6d9b2201ad83f5095ee, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55189}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55189/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c3003d61950d6d9b2201ad83f5095ee
+
+EMPTY_NAME(Login)  Time elapsed: 12.943 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-HJ4MA0G', ip: '172.17.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a9a436ecf68f185e2c2d5c8855a80033, clickElement {id=e418bf97-4cd1-4b42-b41d-78b8fe22ba80}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55243}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55243/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (a9a436ecf68f185e2c2d5c8855a80033)] -> xpath: //header/nav/div/div[3]/div/div/div/a/div]
+Session ID: a9a436ecf68f185e2c2d5c8855a80033
+
+EMPTY_NAME(Login)  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-HJ4MA0G', ip: '172.17.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a9a436ecf68f185e2c2d5c8855a80033, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55243}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55243/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a9a436ecf68f185e2c2d5c8855a80033
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:52163
+Caused by: java.net.ConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:52163
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:52163
+Caused by: java.net.ConnectException: Connection refused: no further information
+
+EMPTY_NAME(Login)  Time elapsed: 18.867 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-HJ4MA0G', ip: '172.17.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c9d52c8bdc3224339b0486b7390049aa, clickElement {id=939feedd-10cf-43a5-8c6b-abf3e7a0b38b}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55312}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55312/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (c9d52c8bdc3224339b0486b7390049aa)] -> xpath: //header/nav/div/div[3]/div/div/div/a/div]
+Session ID: c9d52c8bdc3224339b0486b7390049aa
+
+EMPTY_NAME(Login)  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-HJ4MA0G', ip: '172.17.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c9d52c8bdc3224339b0486b7390049aa, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55312}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55312/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c9d52c8bdc3224339b0486b7390049aa
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:59510
+Caused by: java.net.ConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:59510
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:59510
+Caused by: java.net.ConnectException: Connection refused: no further information
+
+EMPTY_NAME(Login)  Time elapsed: 23.847 s  <<< ERROR!
+org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-HJ4MA0G', ip: '172.17.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cee2f29925cf3af3fd3a6073ce41e087, clickElement {id=a1fdd9f8-1a11-4f69-a237-15d38dd991cf}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55385}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55385/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (cee2f29925cf3af3fd3a6073ce41e087)] -> xpath: //button[@aria-label='Close panel'][1]]
+Session ID: cee2f29925cf3af3fd3a6073ce41e087
+
+EMPTY_NAME(Login)  Time elapsed: 10.806 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-HJ4MA0G', ip: '172.17.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ff7d7fd33cd218f93bc1fcc89285ace7, clickElement {id=1228c4cd-764c-45db-bffc-3a1bbd7bc8f4}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55458}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55458/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (ff7d7fd33cd218f93bc1fcc89285ace7)] -> xpath: //header/nav/div/div[3]/div/div/div/a/div]
+Session ID: ff7d7fd33cd218f93bc1fcc89285ace7
+
+EMPTY_NAME(Login)  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-HJ4MA0G', ip: '172.17.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ff7d7fd33cd218f93bc1fcc89285ace7, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55458}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55458/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ff7d7fd33cd218f93bc1fcc89285ace7
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:51675
+Caused by: java.net.ConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:51675
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:51675
+Caused by: java.net.ConnectException: Connection refused: no further information
+
+EMPTY_NAME(Login)  Time elapsed: 13.757 s  <<< ERROR!
+org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-HJ4MA0G', ip: '172.17.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8673d525ed1360856a45ccdfe1a1dc95, clickElement {id=02243fa4-a2fa-42b4-9837-56916631a95b}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55527}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55527/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (8673d525ed1360856a45ccdfe1a1dc95)] -> xpath: //button[@aria-label='Close panel'][1]]
+Session ID: 8673d525ed1360856a45ccdfe1a1dc95
+

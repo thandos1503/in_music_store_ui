@@ -1,0 +1,133 @@
+-------------------------------------------------------------------------------
+Test set: footer
+-------------------------------------------------------------------------------
+Tests run: 23, Failures: 1, Errors: 10, Skipped: 0, Time elapsed: 454.216 s <<< FAILURE! - in footer
+EMPTY_NAME(footer)  Time elapsed: 10.811 s  <<< ERROR!
+org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-HJ4MA0G', ip: '172.17.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [54321deed1886289c759f722dc7a92d3, clickElement {id=73407c43-58f2-439a-8661-148578787542}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55057}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55057/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (54321deed1886289c759f722dc7a92d3)] -> xpath: //button[@class='btn btn-primary']]
+Session ID: 54321deed1886289c759f722dc7a92d3
+
+EMPTY_NAME(footer)  Time elapsed: 10.54 s  <<< ERROR!
+org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-HJ4MA0G', ip: '172.17.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8d1f0ecb2e010c306897d45e374bb584, clickElement {id=864fc2fb-43e6-471a-802f-5132e9086a3f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55118}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55118/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (8d1f0ecb2e010c306897d45e374bb584)] -> xpath: //button[@class='btn btn-primary']]
+Session ID: 8d1f0ecb2e010c306897d45e374bb584
+
+EMPTY_NAME(footer)  Time elapsed: 10.659 s  <<< ERROR!
+org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-HJ4MA0G', ip: '172.17.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7c3003d61950d6d9b2201ad83f5095ee, clickElement {id=03db037b-78d3-4cf5-852e-860122319f34}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55189}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55189/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (7c3003d61950d6d9b2201ad83f5095ee)] -> xpath: //button[@class='btn btn-primary']]
+Session ID: 7c3003d61950d6d9b2201ad83f5095ee
+
+EMPTY_NAME(footer)  Time elapsed: 12.752 s  <<< ERROR!
+org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-HJ4MA0G', ip: '172.17.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a9a436ecf68f185e2c2d5c8855a80033, clickElement {id=5f827438-c248-46b7-85f3-ed842a52d5a6}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55243}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55243/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (a9a436ecf68f185e2c2d5c8855a80033)] -> xpath: //button[@class='btn btn-primary']]
+Session ID: a9a436ecf68f185e2c2d5c8855a80033
+
+EMPTY_NAME(footer)  Time elapsed: 18.874 s  <<< ERROR!
+org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-HJ4MA0G', ip: '172.17.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c9d52c8bdc3224339b0486b7390049aa, clickElement {id=96b5c2e2-a567-436a-9a27-a82b0526bc3c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55312}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55312/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (c9d52c8bdc3224339b0486b7390049aa)] -> xpath: //button[@class='btn btn-primary']]
+Session ID: c9d52c8bdc3224339b0486b7390049aa
+
+EMPTY_NAME(footer)  Time elapsed: 23.524 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-HJ4MA0G', ip: '172.17.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cee2f29925cf3af3fd3a6073ce41e087, executeScript {script=arguments[0].scrollIntoView(true);, args=[{ELEMENT=ebbb7be3-9fb5-4567-b799-2c46740e51be, element-6066-11e4-a52e-4f735466cecf=ebbb7be3-9fb5-4567-b799-2c46740e51be}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55385}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55385/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cee2f29925cf3af3fd3a6073ce41e087
+
+EMPTY_NAME(footer)  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-HJ4MA0G', ip: '172.17.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cee2f29925cf3af3fd3a6073ce41e087, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55385}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55385/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cee2f29925cf3af3fd3a6073ce41e087
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:59404
+Caused by: java.net.ConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:59404
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:59404
+Caused by: java.net.ConnectException: Connection refused: no further information
+
+EMPTY_NAME(footer)  Time elapsed: 11.136 s  <<< ERROR!
+org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-HJ4MA0G', ip: '172.17.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ff7d7fd33cd218f93bc1fcc89285ace7, clickElement {id=686e0bfe-7773-4836-861b-4e643ea92d8f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55458}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55458/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (ff7d7fd33cd218f93bc1fcc89285ace7)] -> xpath: //button[@class='btn btn-primary']]
+Session ID: ff7d7fd33cd218f93bc1fcc89285ace7
+
+EMPTY_NAME(footer)  Time elapsed: 13.609 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-HJ4MA0G', ip: '172.17.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8673d525ed1360856a45ccdfe1a1dc95, executeScript {script=arguments[0].scrollIntoView(true);, args=[{ELEMENT=fa070f69-f98a-4b7e-8daa-ed892bfe8a94, element-6066-11e4-a52e-4f735466cecf=fa070f69-f98a-4b7e-8daa-ed892bfe8a94}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55527}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55527/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8673d525ed1360856a45ccdfe1a1dc95
+
+EMPTY_NAME(footer)  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-HJ4MA0G', ip: '172.17.176.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8673d525ed1360856a45ccdfe1a1dc95, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55527}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55527/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8673d525ed1360856a45ccdfe1a1dc95
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:55989
+Caused by: java.net.ConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:55989
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:55989
+Caused by: java.net.ConnectException: Connection refused: no further information
+
+EMPTY_NAME(footer)  Time elapsed: 39.944 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[]> but was:<[A Note From Our CEO]>
+
