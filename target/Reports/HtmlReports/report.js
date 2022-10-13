@@ -100,4 +100,71 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
+formatter.background({
+  "name": "Launch website",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I navigate to url",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "StepDefinitions.NavigationSteps.i_navigate_to_url()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "as a user, i want to Validate if Country Code is Not US, Cart does not appear",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@SmokeScenario"
+    },
+    {
+      "name": "@eCommerce"
+    },
+    {
+      "name": "@debug"
+    }
+  ]
+});
+formatter.step({
+  "name": "I should see the cookie banner",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDefinitions.CookieSteps.i_should_see_the_cookie_banner()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click the Allow Cookies Button",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "StepDefinitions.CookieSteps.i_click_the_Allow_Cookies_Button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Cart must not appear",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDefinitions.CommerceSteps.cart_must_not_appear()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
 });

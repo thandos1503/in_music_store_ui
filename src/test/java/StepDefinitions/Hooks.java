@@ -4,9 +4,11 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Hooks {
 	String projectPath = System.getProperty("user.dir");
@@ -14,9 +16,17 @@ public class Hooks {
 
 	@Before
 	public void startTest() {
-		System.setProperty("webdriver.chrome.driver", projectPath + "\\\src\\\test\\\resources\\\Drivers\\\chromedriver.exe");
-		//System.setProperty("webdriver.chrome.driver", projectPath + "/src/test/resources/Drivers/chromedriver");
+		WebDriverManager.chromedriver().setup();
 		
+        ChromeOptions options = new ChromeOptions();
+        
+        options.setHeadless(true);
+        options.addArguments("window-size=1920,1200");
+        driver=new ChromeDriver(options);
+        //driver.get("https://opensource-demo.orangehrmlive.com/");
+		
+		//System.setProperty("webdriver.chrome.driver", projectPath + "/src/test/resources/Drivers/chromedriver.exe");
+				
 		this.driver = new ChromeDriver();
 		this.driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		this.driver.manage().timeouts().pageLoadTimeout(120, TimeUnit.SECONDS);
