@@ -22,7 +22,8 @@ public class Hooks {
         
         options.setHeadless(true);
         options.addArguments("window-size=1920,1200");
-        driver=new ChromeDriver(options);
+        this.driver=new ChromeDriver(options);
+        
         //driver.get("https://opensource-demo.orangehrmlive.com/");
 		
 		//System.setProperty("webdriver.chrome.driver", projectPath + "/src/test/resources/Drivers/chromedriver.exe");
