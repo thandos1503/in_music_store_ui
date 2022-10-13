@@ -16,7 +16,7 @@
  And I Reload the page
  Then I should see the shopping cart
  
- @SmokeTest 
+ @debug
  Scenario: as a user, i want to Validate if Country Code is Not US, Cart does not appear 
  Then I should see the cookie banner
  When I click the Allow Cookies Button
