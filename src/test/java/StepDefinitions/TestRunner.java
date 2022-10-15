@@ -10,7 +10,8 @@ import io.cucumber.junit.Cucumber;
 				 glue = {"StepDefinitions"},
 				 monochrome = true,
 				 plugin = {"pretty","html:target/Reports/HtmlReports"},
-				 tags="@debug"
+				 tags="@login"
+				 //tags="@debug"
 				 //tags="@SmokeScenario"
 )
 

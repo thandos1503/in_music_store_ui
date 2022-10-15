@@ -1,7 +1,15 @@
 package Pages;
 
+import java.awt.List;
+import java.util.ArrayList;
+import java.util.Collection;
+
+import org.apache.hc.core5.http.message.BasicHeaderElement;
 import org.openqa.selenium.Cookie;
+import org.openqa.selenium.Proxy;
 import org.openqa.selenium.WebDriver;
+
+import com.github.dockerjava.api.model.Device;
 
 import Helpers.Wait;
 
@@ -25,10 +33,12 @@ public class NavigationPage {
 		this.driver.navigate().refresh();
 	}
 	
+	
+	//needs to be removed
 	public void setCookie() throws InterruptedException
 	{
-		Wait.waitAwhile(10);
-		Cookie countrycode = driver.manage().getCookieNamed("countryCode");
+
+	     Cookie countrycode = driver.manage().getCookieNamed("countryCode");
 		driver.manage().deleteCookie(countrycode);
 		driver.manage().addCookie(new Cookie("countryCode", "US"));
 	}
