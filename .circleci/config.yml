@@ -1,11 +1,13 @@
-image: rvancea/maven-chrome-jdk8:latest
+version: 2
 
-build:
-  stage: build
-  script:
-    - mvn compile
-
-test:
-  stage: test
-  script:
-    - mvn clean test
+jobs:
+  image: rvancea/maven-chrome-jdk8:latest
+  build:
+    stage: build
+    script:
+      - mvn compile
+  
+  test:
+    stage: test
+    script:
+      - mvn clean test
