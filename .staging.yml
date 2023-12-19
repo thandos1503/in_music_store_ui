@@ -1,0 +1,12 @@
+image: markhobson/maven-chrome:jdk-11
+
+test:
+  stage: test
+  script:
+    - mvn -Dtesturl=staging -Dtestplatform=linux clean install
+  artifacts:
+    expire_in: 1 week
+    reports:
+      junit:
+        - target/surefire-reports/TEST-*.xml
+ 
